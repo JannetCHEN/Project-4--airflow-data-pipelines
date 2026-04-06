@@ -9,13 +9,13 @@ airflow connections get aws_credentials -o json
 "description": "", 
 "host": "", 
 "schema": "", 
-"login": "AKIAYZZXWKDNUX5GEFUP", 
-"password": "KIyMPb6ZPREo1lmhN+6RBMZLuqIsY2NtCU9hW1QM", 
+"login": "AKIxxx", 
+"password": "KIysss", 
 "port": null, 
 "is_encrypted": "False", 
 "is_extra_encrypted": "False", 
 "extra_dejson": {}, 
-"get_uri": "aws://AKIAYZZXWKDNUX5GEFUP:KIyMPb6ZPREo1lmhN+6RBMZLuqIsY2NtCU9hW1QM@"
+"get_uri": "aws://AKIxxx:KIyssssM@"
 }]
 
 # Copy the value after "get_uri":
@@ -34,7 +34,7 @@ airflow connections get redshift -o json
 "conn_id": "redshift", 
 "conn_type": "redshift", 
 "description": "", 
-"host": "default-workgroup.605170323675.us-east-1.redshift-serverless.amazonaws.com", 
+"host": "default-workgroup.60xxxx5.us-east-1.redshift-serverless.amazonaws.com", 
 "schema": "dev", 
 "login": "awsuser", 
 "password": "!czh5309XG", 
@@ -42,7 +42,7 @@ airflow connections get redshift -o json
 "is_encrypted": "False", 
 "is_extra_encrypted": "False", 
 "extra_dejson": {}, 
-"get_uri": "redshift://awsuser:!czh5309XG@default-workgroup.605170323675.us-east-1.redshift-serverless.amazonaws.com:5439/dev"}]
+"get_uri": "redshift://awsuser:xxxx@default-workgroup.60xxxx.us-east-1.redshift-serverless.amazonaws.com:5439/dev"}]
 
 # Copy the value after "get_uri":
 #
@@ -50,7 +50,7 @@ airflow connections get redshift -o json
 #
 # TO-DO: Update the following command with the URI and un-comment it:
 
-airflow connections add redshift --conn-uri 'redshift://awsuser:!czh5309XG@default-workgroup.605170323675.us-east-1.redshift-serverless.amazonaws.com:5439/dev'
+airflow connections add redshift --conn-uri 'redshift://awsuser:xxxxG@default-workgroup.605ssss.us-east-1.redshift-serverless.amazonaws.com:5439/dev'
 
 # TO-DO: update the following bucket name to match the name of your S3 bucket and un-comment it:
 
@@ -58,4 +58,4 @@ airflow variables set s3_bucket jannet-data-pipelines
 
 # TO-DO: un-comment the below line:
 
-airflow variables set s3_prefix data-pipelines
+# airflow variables set s3_prefix data-pipelines
