@@ -50,7 +50,7 @@ def final_project():
         aws_credentials_id='aws_credentials',
         table="staging_songs",
         s3_bucket="jannet-data-pipelines",
-        s3_key="song-data/A/A/A/",  
+        s3_key="song-data/",  
         json_path="auto",  
         iam_role="arn:aws:iam::605170323675:role/my-redshift-service-role",
         region="us-east-1"
