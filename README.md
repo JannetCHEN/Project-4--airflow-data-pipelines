@@ -81,7 +81,7 @@ The source data resides in **S3** and needs to be processed in Sparkify's data w
 
 <img src="./images/03-all-dag-runs.png">
 
-> ***NOTE:** Set `start_date` = `datetime(2018, 11, 1)` and `end_date` = `datetime(2018, 11, 2)` to test the data pipeline*
+
 
 ## AWS and Airflow Configurations
 
@@ -107,6 +107,6 @@ _Add Airflow Connections:_
 
 #### 4. Configure Variables in Airflow UI - S3 Paths
 * `Key` = `s3_bucket`
-* `Value` = `dend-phoebe` (bucket name)
+* `Value` = `jannet-data-pipelines` (bucket name)
 
 
