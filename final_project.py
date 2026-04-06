@@ -11,9 +11,9 @@ from final_project_operators.data_quality import DataQualityOperator
 from udacity.common.final_project_sql_statements import SqlQueries
 
 default_args = {
-    'owner': 'Phoebe',
+    'owner': 'Jannet',
     'depends_on_past': False,
-    'start_date': datetime(2018, 11, 1),
+    'start_date': datetime(2025, 11, 1),
     'retries': 3,
     'retry_delay': timedelta(minutes=5),
     'catchup': False,
@@ -24,7 +24,7 @@ default_args = {
 @dag(
     default_args=default_args,
     description='Load and transform data in Redshift with Airflow',
-    end_date=datetime(2018, 11, 2),
+    end_date=datetime(2026, 11, 2),
     schedule_interval='0 * * * *'
 )
 def final_project():
