@@ -24,7 +24,7 @@ airflow connections get aws_credentials -o json
 #
 # TO-DO: Update the following command with the URI and un-comment it:
 
-airflow connections add aws_credentials --conn-uri 'aws://AKIAYZZXWKDNUX5GEFUP:KIyMPb6ZPREo1lmhN+6RBMZLuqIsY2NtCU9hW1QM@'
+airflow connections add aws_credentials --conn-uri 'aws://AKIxxx:KIyssss@'
 
 #
 # TO-DO: run the follwing command and observe the JSON output: 
@@ -34,7 +34,7 @@ airflow connections get redshift -o json
 "conn_id": "redshift", 
 "conn_type": "redshift", 
 "description": "", 
-"host": "default-workgroup.60xxxx5.us-east-1.redshift-serverless.amazonaws.com", 
+"host": "default-workgroup.60xxxx.us-east-1.redshift-serverless.amazonaws.com", 
 "schema": "dev", 
 "login": "awsuser", 
 "password": "!czh5309XG", 
